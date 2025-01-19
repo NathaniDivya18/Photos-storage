@@ -1,0 +1,7 @@
+<div >
+    <div *ngIf="idtype==='image'"><img class="image" src="photo{{photoid}}.png" alt="photo{{photoid}}"></div>
+    <div *ngIf="idtype==='video'"><video class="video" controls>
+        <source [src]="'video' + photoid + '.mp4'" type="video/mp4">
+        Your browser does not support the video tag.
+    </video></div>
+</div>

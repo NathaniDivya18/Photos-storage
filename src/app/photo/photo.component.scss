@@ -1,0 +1,23 @@
+.image{
+    width: 98%;
+    height: 97vh;
+    top:0;
+    bottom:0;
+    position: absolute;
+}
+video {
+    width: 97%;      
+    height: 97vh;          
+    border-radius: 8px;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  video:hover {
+    transform: scale(1.05);
+  }
+  
+  video:focus {
+    outline: none;
+  }
+  
